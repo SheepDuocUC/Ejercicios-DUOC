@@ -1,7 +1,5 @@
 import os
 
-
-
 def limpiar_pantalla():
     os.system('cls')
 
@@ -87,11 +85,11 @@ while True:
     try: 
         limpiar_pantalla()
         print("---------- Menu:  ----------")
-        print("1. Agregar notas: ")
-        print("2. Mostrar todas las notas: ")
-        print("3. Calcular promedio: ")
-        print("4. Contar aprobados y reprobados: ")
-        print("5. Notas mas altas y mas bajas: ")
+        print("1. Agregar notas ")
+        print("2. Mostrar todas las notas ")
+        print("3. Calcular promedio ")
+        print("4. Contar aprobados y reprobados ")
+        print("5. Notas mas altas y mas bajas ")
         print("6. Eliminar la ultima nota ingresada")
         print("7. Salir ")
 
